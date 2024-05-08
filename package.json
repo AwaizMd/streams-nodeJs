@@ -1,0 +1,29 @@
+{
+  "name": "streams-in-nodejs",
+  "version": "1.0.0",
+  "description": "Streams allow you to handle reading and writing data continuously and efficiently",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AwaizMd/streams-nodeJs.git"
+  },
+  "keywords": [
+    "Streams",
+    "NodeStreams",
+    "streams",
+    "in",
+    "node"
+  ],
+  "author": "Mohammad Awaiz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AwaizMd/streams-nodeJs/issues"
+  },
+  "homepage": "https://github.com/AwaizMd/streams-nodeJs#readme",
+  "dependencies": {
+    "csvtojson": "^2.0.10"
+  }
+}
