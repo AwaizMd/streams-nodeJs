@@ -2,7 +2,7 @@ const fs = require("fs");
 const csv = require("csvtojson");
 const { Transform, pipeline } = require("stream");
 
-const readStream = fs.createReadStream("./data/import2.csv");
+const readStream = fs.createReadStream("./import2.csv");
 
 const dataTransform = new Transform({
   objectMode: true,
