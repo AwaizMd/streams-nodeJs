@@ -1,8 +1,8 @@
 const fs = require("fs");
 
-const readStream = fs.createReadStream("./data/import2.csv");
+const readStream = fs.createReadStream("./import2.csv");
 
-const writeStream = fs.createWriteStream("./data/export.csv");
+const writeStream = fs.createWriteStream("./export.csv");
 
 readStream.on("data", (buffer) => {
   console.log("buffer: ", buffer);
